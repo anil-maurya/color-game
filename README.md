@@ -14,18 +14,17 @@ RGB color model is an additive color model in which red, green and blue colors a
 1. Download or Clone repository
 2. open `index.html` in the browser.
  
-Note - Make user `colorgame.js` and `style.css` are in the root directory.
+Note - Make sure `colorgame.js` and `style.css` are in the root directory.
  
  
  
 ## Live Demo
  
-A lookalike project is hosted on `https://guessthecolor.com/`
+A similar project is hosted on `https://guessthecolor.com/`
  
 **Note**
  
-Neither I am the owner of the hosted version of the game nor this project's code is copied from there. Only the idea of functionality is taken from there.
+Neither I am the owner of the hosted version of the game nor source code is copied from there. Only the idea of functionality is taken.
+
  
 [Live Demo](https://guessthecolor.com/)
-
-
