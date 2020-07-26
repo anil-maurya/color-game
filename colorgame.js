@@ -1,6 +1,7 @@
 let squareCounts
 let colors = []
 let mode = 'easy'
+
 const squares = document.querySelectorAll('.square')
 const resetButton = document.querySelector("#reset")
 const easyButton = document.querySelector('#easy')
@@ -9,11 +10,6 @@ const titleElem = document.querySelector('#title')
 const messageElem = document.querySelector('#message')
 const header = document.querySelector('h1')
 
-init()
-
-function init(){
-    reset()
-}
 
 resetButton.addEventListener('click', reset)
 easyButton.addEventListener('click', toggleMode)
@@ -75,7 +71,6 @@ function changeColor(color){
 
 function handleSquareClick(){
     const color = this.style.backgroundColor
-    console.log(color)
     if( color === titleElem.textContent ){
         messageElem.textContent = 'You Won !!'
         resetButton.textContent = 'play again ?'
@@ -86,3 +81,7 @@ function handleSquareClick(){
         this.style.display = 'none'
     }
 }
+
+// init...
+
+reset()
